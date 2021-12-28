@@ -1,25 +1,18 @@
 ---
-description: Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce
-  iaculis ultricies eros, ac iaculis eros maximus nec. Phasellus vitae mi felis.
-  Curabitur iaculis nunc laoreet eleifend tincidunt. Aliquam nec lectus varius,
-  mattis sapien nec, tristique elit. Suspendisse id sem sit amet mi tempus
-  fermentum. Duis non metus nec nisl convallis efficitur. **Donec condimentum**
-  neque rhoncus congue volutpat. Maecenas scelerisque varius ornare. Morbi
-  egestas rutrum mattis. In pulvinar imperdiet tellus vel laoreet. Etiam ac
-  sodales nulla. Nulla sit amet enim ipsum. Nulla pharetra turpis tempus
-  venenatis sollicitudin. Nunc lacinia rhoncus leo, non consectetur velit tempus
-  sed. Praesent euismod nibh ut massa congue, at condimentum justo egestas.
-  Etiam accumsan felis non ipsum vulputate gravida. Etiam elementum vitae nisl a
-  aliquam.
+description: Hi, I'm Maciek. I am energic Fullstack developer. I love a challenge that makes me grow very quickly. I like to set high expectations for myself. I am interested in cryptocurrencies, blockchain, WEB 3.0 and IOT.
 skills:
   - name: HTML
     category: Technologies
     icon: /uploads/logo-html5.svg
-    value: 5
+    value: 4
   - name: CSS
     category: Technologies
     icon: /uploads/logo-css.svg
-    value: 5
+    value: 4
+  - name: SCSS
+    category: Technologies
+    icon: /uploads/logo-sass.svg
+    value: 4
   - name: JavaScript
     category: Technologies
     icon: /uploads/logo-javascript.svg
@@ -31,11 +24,19 @@ skills:
   - name: React.js
     category: Technologies
     icon: /uploads/logo-react.svg
-    value: 3
-  - name: SASS
+    value: 4
+  - name: Redux
     category: Technologies
-    icon: /uploads/logo-sass.svg
-    value: 3
+    icon: /uploads/logo-redux.png
+    value: 4
+  - name: Gatsby
+    category: Technologies
+    icon: /uploads/logo-gatsby.svg
+    value: 2
+  - name: Next.js
+    category: Technologies
+    icon: /uploads/logo-next.png
+    value: 2
   - name: Node.js
     category: Technologies
     icon: /uploads/logo-node.svg
@@ -43,23 +44,31 @@ skills:
   - name: Express
     category: Technologies
     icon: /uploads/logo-express.svg
-    value: 5
-  - name: PostgreSQL
+    value: 4
+  - name: NestJS
     category: Technologies
-    icon: /uploads/logo-postgres.svg
-    value: 2
+    icon: /uploads/logo-nest.png
+    value: 1
   - name: MongoDB
     category: Technologies
     icon: /uploads/logo-mongo.svg
     value: 3
+  - name: Elasticsearch
+    category: Technologies
+    icon: /uploads/logo-elasticsearch.png
+    value: 3
+  - name: PostgreSQL
+    category: Technologies
+    icon: /uploads/logo-postgres.svg
+    value: 2
   - name: Docker
     category: Tools
     icon: /uploads/logo-docker.svg
-    value: 1
-  - name: Gatsby
+    value: 2
+  - name: Azure
     category: Tools
-    icon: /uploads/logo-gatsby.svg
-    value: 3
+    icon: /uploads/logo-azure.png
+    value: 2
   - name: Git
     category: Tools
     icon: /uploads/logo-git.svg
@@ -72,23 +81,21 @@ skills:
     category: Tools
     icon: /uploads/logo-webpack.svg
     value: 2
+  - name: Jenkins
+    category: Tools
+    icon: /uploads/logo-jenkins.png
+    value: 3
+  - name: Kibana
+    category: Tools
+    icon: /uploads/logo-kibana.png
+    value: 3
   - name: Polish - native
+    icon: /uploads/logo-poland.jpg
     category: Other
     value: 5
-  - name: English (C1)
+  - name: English (B2)
+    icon: /uploads/logo-british.jpg
     category: Other
-    value: 4
+    value: 3
 testimonials:
-  - content: Mauris suscipit risus ut lorem consequat, id gravida sem vulputate.
-      Donec pharetra mi ac elit hendrerit, at viverra risus fermentum. Proin sit
-      amet viverra dolor.
-    authorImage: /uploads/testimonial-1.jpg
-    authorName: Marlene Watson
-    authorJob: CEO of Donec
-  - content: Suspendisse ullamcorper massa nec lectus volutpat malesuada. Proin at
-      nibh dui. Nunc at tincidunt mauris, non sagittis libero. Proin porta id
-      elit sit amet maximus.
-    authorImage: /uploads/testimonial-2.jpg
-    authorName: Gabe Mcdonalid
-    authorJob: Marketing specialist in Railroad
 ---

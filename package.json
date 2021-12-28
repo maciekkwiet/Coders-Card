@@ -22,6 +22,7 @@
     "@material-ui/core": "4.11.4",
     "clsx": "1.1.1",
     "dayjs": "1.10.4",
+    "devicon": "^2.14.0",
     "marked": "2.0.3",
     "next": "10.2.0",
     "preact": "10.5.13",

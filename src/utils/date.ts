@@ -12,7 +12,7 @@ const isCurrentMonth = (date: string) => {
 };
 
 const displayCurrentIfCurrentDate = (date: string, dateFormat: string) => {
-  return isCurrentMonth(date) ? 'current' : dayjs(date).format(dateFormat);
+  return isCurrentMonth(date) || date === 'current' ? 'current' : dayjs(date).format(dateFormat);
 };
 
 export const formatDate = (date: string, format: DateFormat, withCurrent = false) => {
