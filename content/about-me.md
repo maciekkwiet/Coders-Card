@@ -1,5 +1,5 @@
 ---
-description: Hi, I'm Maciek. I am energic Fullstack developer. I love a challenge that makes me grow very quickly. I like to set high expectations for myself. I am interested in cryptocurrencies, blockchain, WEB 3.0 and IOT.
+description: Hi, I'm Maciek. I am an energic Fullstack developer. I love a challenges that makes me grow very quickly. I like to set high expectations for myself. I am interested in cryptocurrencies, blockchain, WEB 3.0 and IOT.
 skills:
   - name: HTML
     category: Technologies
@@ -12,7 +12,7 @@ skills:
   - name: SCSS
     category: Technologies
     icon: /uploads/logo-sass.svg
-    value: 4
+    value: 3
   - name: JavaScript
     category: Technologies
     icon: /uploads/logo-javascript.svg
