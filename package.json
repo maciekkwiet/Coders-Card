@@ -20,6 +20,7 @@
   },
   "dependencies": {
     "@material-ui/core": "4.11.4",
+    "@netlify/plugin-nextjs": "^4.1.1",
     "clsx": "1.1.1",
     "dayjs": "1.10.4",
     "devicon": "^2.14.0",
