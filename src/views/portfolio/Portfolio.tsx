@@ -82,7 +82,11 @@ export const Portfolio = () => {
         title={project.name}
         tags={project.technologies.map((technology) => ({ name: technology.name }))}
         imageUrl={project.previewImage}
-        subtitle={`${formatDate(project.startDate, 'day')} - ${formatDate(project.finishDate, 'day', true) ?? 'now'}`}
+        subtitle={
+          project.finishDate && project.startDate
+            ? `${formatDate(project.startDate, 'day')} - ${formatDate(project.finishDate, 'day', true) ?? 'now'}`
+            : ''
+        }
         contentMainDescription={project.description}
         contentMainRole={project.role}
         contentHeader={project.previewNote}

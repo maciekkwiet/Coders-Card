@@ -68,7 +68,6 @@ export const PortfolioProjectDialogDesktop = (props: PortfolioProjectDialogVaria
   const [dialogScroll, setDialogScroll] = useState(0);
 
   const description = useMemo(() => marked(props.contentMainDescription), [props.contentMainDescription]);
-  const role = useMemo(() => marked(props.contentMainRole), [props.contentMainRole]);
 
   const projectImage = transformImage(props.imageUrl, { width: 600, height: 336 });
   const controlsTransform = `translateY(${Math.max(dialogScroll - CONTROLS_TOP_SPACE, 0)}px)`;
@@ -134,15 +133,6 @@ export const PortfolioProjectDialogDesktop = (props: PortfolioProjectDialogVaria
           variant="body2"
           color="textSecondary"
           dangerouslySetInnerHTML={{ __html: description }}
-        />
-        <Typography className={classes.contentMain} variant="h5" color="textPrimary">
-          My role
-        </Typography>
-        <Typography
-          className={classes.content}
-          variant="body2"
-          color="textSecondary"
-          dangerouslySetInnerHTML={{ __html: role }}
         />
         <Typography className={classes.contentMain} variant="h5" color="textPrimary">
           Technologies
