@@ -6,6 +6,7 @@ type AboutMe = {
   description: string;
   skills: Skill[];
   testimonials?: Testimonial[];
+  certificates: string;
 };
 
 export const aboutMe: AboutMe = attributes;

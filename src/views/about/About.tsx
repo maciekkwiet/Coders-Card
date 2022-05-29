@@ -11,6 +11,7 @@ import type { Skill } from '@/typings';
 import { useAboutStyles } from './About.styles';
 
 const description = marked(aboutMe.description);
+const certificates = marked(aboutMe.certificates);
 
 export const About = () => {
   const classes = useAboutStyles();
@@ -35,6 +36,12 @@ export const About = () => {
           />
         ))}
       </Box>
+      {aboutMe.certificates?.length && (
+        <>
+          <SectionTitle className={classes.title}>Certificates</SectionTitle>
+          <Box className={classes.content} dangerouslySetInnerHTML={{ __html: certificates }} />
+        </>
+      )}
       {aboutMe.testimonials?.length ? <TestimonialsSection testimonials={aboutMe.testimonials} /> : null}
     </Box>
   );

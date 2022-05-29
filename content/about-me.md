@@ -98,4 +98,5 @@ skills:
     category: Other
     value: 3
 testimonials:
+certificates: <b><ul><li>AgilePM Foundation</li><br><li>PRINCE2 Foundation</li></ul></b>
 ---
