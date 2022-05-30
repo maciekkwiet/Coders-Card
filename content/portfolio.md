@@ -12,6 +12,7 @@ projects:
       - name: React
       - name: Redux
       - name: TypeScript
+      - name: Socket.io
     name: Meme Poker
     startDate:
     previewImage: /uploads/memePoker.png
@@ -27,9 +28,7 @@ projects:
         icon: external-link
         url: https://cc-imagify.herokuapp.com/
     technologies:
-      - name: React
-      - name: Redux
-      - name: TypeScript
+      - name: SCSS
       - name: NodeJS
       - name: Express
       - name: MongoDB
@@ -55,7 +54,7 @@ projects:
     startDate:
     previewImage: /uploads/chess.png
     label: Desktop
-    previewNote: Chess
+    previewNote: Retro Chess
     description: Chess
   - finishDate:
     buttons:
@@ -71,11 +70,13 @@ projects:
     technologies:
       - name: TS
       - name: React
+      - name: Redux
+      - name: styled-components
     name: Pet share
     startDate:
     previewImage: /uploads/petShare.png
     label: Desktop
-    previewNote: Pet share
+    previewNote: Hackathon Pet share
     description: Pet share
   - finishDate:
     buttons:
@@ -87,11 +88,14 @@ projects:
         url: https://61cb5af700ff6b00076c0fde--unruffled-brown-d54735.netlify.app/
     technologies:
       - name: TS
+      - name: Next
+      - name: React
+      - name: Storybook
     name: Portfolio
     startDate:
     previewImage: /uploads/portfolio.png
     label: Responsive
-    previewNote: Portfolio
+    previewNote: Current Portfolio
     description: Portfolio
   - finishDate:
     buttons:
@@ -112,7 +116,7 @@ projects:
     startDate:
     previewImage: /uploads/starWars.png
     label: Responsive
-    previewNote: Star Wars Quiz
+    previewNote: CodersCamp Star Wars Quiz
     description: Star Wars Quiz
   - finishDate:
     buttons:
