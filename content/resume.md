@@ -1,7 +1,7 @@
 ---
 workExperience:
   - jobName: Tech Lead/JS developer
-    # jobDescription: job description
+    jobDescription: Combining full-stack development and team management responsibilities
     companyName: Pronos
     startDate: 2021-11-01T20:06:48.583Z
     finishDate: current
@@ -11,7 +11,7 @@ workExperience:
     startDate: 2020-10-01T20:09:54.359Z
     finishDate: 2021-11-01T19:09:54.371Z
   - jobName: Fullstack developer
-    # jobDescription: job description
+    jobDescription: Mentoring newcomers, creating projects in modern technologies
     companyName: CodersCrew
     startDate: 2020-03-01T20:11:46.025Z
     finishDate: current
